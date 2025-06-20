@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+void printAP(int n){
+    for(int i =1; i<=n; i++){
+        int term = 3*i+7;
+        cout<< term<<" ";
+        
+    }
+    cout<<endl;
+    
+}
+int main(){
+    int count;
+    
+    cout<<"Enter the number of A.P. term to print( using 3n+7):" ;
+    cin>>count;
+    
+    printAP(count);
+    
+    return 0;
+}
