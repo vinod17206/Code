@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+// Function to print A.P. terms
+void printAP(int n) {
+    for (int i = 1; i <= n; i++) {
+        int term = 3 * i + 7;
+        cout << term << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int count;
+
+    cout << "Enter the number of A.P. terms to print (using 3n + 7): ";
+    cin >> count;
+
+    // Call the function
+    printAP(count);
+
+    return 0;
+}
