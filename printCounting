@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+void printCounting(int num) {
+     
+    for(int i=1; i <= num; i++) {
+        cout << i << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    printCounting(n);
+
+    // ------------------------------------------
+    // Example variable names:
+    // int number;
+    // int value;
+    // int input;
+    // int countUpTo;
+
+    // Data types and their use cases:
+    // int    -> Whole numbers (e.g., 5, 100)
+    // float  -> Decimal numbers (e.g., 5.5)
+    // double -> Bigger/more precise decimals
+    // char   -> A single character (e.g., 'A')
+    // string -> Text input (e.g., "Hello")
+    // ------------------------------------------
+
+    return 0;
+}
