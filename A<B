@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main () { 
+    int a, b ;
+    cin>>a>> b ; //key learning taking input like this for the same value
+   
+    
+    if(  a>b ) {
+      
+        cout<< "a is bigger then b /n ";
+    }
+        
+        else if  (a<b) {
+            
+            cout <<" b is bigger then a /n ";
+        }
+        
+        return 0;
+        
+        
+        
+        
+    }
+    
+    
